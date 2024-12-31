@@ -1,6 +1,6 @@
 height = float(input('Enter your height in centimeters: '))
 weight = float(input('Enter your weight in kilograms: '))
-BMI = weight / (height/100)*0.5
+BMI = weight / (height/100)**2
 print ('Your BMI is:', BMI)
 if BMI <= 18.4:
     print ('You are underweight.')
